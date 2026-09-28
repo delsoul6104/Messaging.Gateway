@@ -1,0 +1,22 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Common.Redis/">
+    <Project Path="../Common.Redis/Common.Redis/Common.Redis.csproj" />
+  </Folder>
+
+  <Folder Name="/Common/">
+    <Project Path="../Common/src/Common.Abstractions/Common.Abstractions.csproj" />
+    <Project Path="../Common/src/Common.Cache/Common.Cache.csproj" />
+    <Project Path="../Common/src/Common.Contracts/Common.Contracts.csproj" />
+    <Project Path="../Common/src/Common.Domain/Common.Domain.csproj" />
+    <Project Path="../Common/src/Common.Infrastructure/Common.Infrastructure.csproj" />
+    <Project Path="../Common/src/Common.Pub/Common.Pub.csproj" />
+    <Project Path="../Common/src/Common.Shared/Common.Shared.csproj" />  </Folder>
+  <Project Path="src/Messaging.Gateway.Api/Messaging.Gateway.Api.csproj" />
+  <Project Path="src/Messaging.Gateway.Application/Messaging.Gateway.Application.csproj" />
+  <Project Path="src/Messaging.Gateway.Infrastructure/Messaging.Gateway.Infrastructure.csproj" />
+</Solution>
